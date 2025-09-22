@@ -1,2 +1,3 @@
 # Elevate_labs_task1
 Clean and prepare a raw dataset 
+Pandas library is imported as pd to use the data cleaning functions and import the dataset into the Jupyter notebook. Isnull() function is used to count the missing values, and dropna() function is used to drop the missing values. Duplicated() function is used to count the duplicate rows.  Dropduplicates function is used to drop duplicate rows. Str.title() function is  used to standardize the text values of the columns. col.capitalize function is used to standardize the title of columns.  The function pd.to_datetime is used to standardize the date and time of the date_added column.  The function df.to_csv is used to download the cleaned data.
